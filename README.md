@@ -1,12 +1,6 @@
 1. Clone or download this repo
 2. Activate the Virtual Environment:
   env/bin/activate
-3. Install Dependencies
-    pip install django
-    pip install djangorestframework
-    pip install pdfplumber
-    pip install python-docx
-    pip install psycopg2-binary
 4. Configure PostgreSQL:
    Create a PostgreSQL database and user.
     psql -U postgres
