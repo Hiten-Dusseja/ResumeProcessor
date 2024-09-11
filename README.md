@@ -10,16 +10,8 @@
 4. Configure PostgreSQL:
    Create a PostgreSQL database and user.
 Update settings.py with your PostgreSQL database settings:
-     DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'your_db_name',
-        'USER': 'your_db_user',
-        'PASSWORD': 'your_db_password',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+             ![image](https://github.com/user-attachments/assets/3ab7b12e-4f5c-48d8-902a-f76a1eb7b110)
+
 5. Apply Migrations
    python manage.py makemigrations
    python manage.py migrate
